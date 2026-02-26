@@ -1,0 +1,33 @@
+
+---
+Context for dummy usecase--
+
+Background:
+I listened to various songs today morning viz (Serial order):
+Ruk Ja O Dil Deewane, Mere khwabo mein, Ladki Badi Anjani hai, Zara sa Jhoom lo mai, Jaadu teri nazar, Ek din aap (Yes Boss)
+
+Ageless Working:
+"Aur Bhai, kya chal raha hai aaj kal, kaun hai wo Sundari?" -- Companion for the youth huh🤔?
+
+Also, if I say:'kuch karne ka jee nahi kar raha hai, Energy jagao!' -- If it has observed my song listening pattern (see above for sample),
+it should be able to understand what i listen to & 3/4 first songs are DDLJ, Udit Narayan & YRF combo is a hit,
+so it should recomend songs based upon this formula -- use of graph DB (neo4j) ??
+---
+
+Ola Krutrim for scaling (₹75/1M tokeens for largest model) -- Wrapper --    
+
+Record conversations b/w Dr. Vishal & PN Modgil
+
+
+
+---
+Which means AGELESS has two distinct end states:
+For the Elder — Presence
+Not a phone. Not a screen. A being in the room. Someone sitting across. 
+The loneliness problem isn't solved by a voice from a speaker — it's solved when the elder doesn't feel alone in a physical sense.
+ VR/MR makes that possible. Savitri Devi isn't talking to a phone. She's talking to someone who is there.
+
+For the Youth — Immersion
+Arjun doesn't just hear an elder's story.
+ He enters it. 1947. A woman leaving everything behind. Felt. Not narrated. That's a completely different emotional impact than audio.
+ ---
