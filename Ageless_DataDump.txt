@@ -31,3 +31,71 @@ For the Youth — Immersion
 Arjun doesn't just hear an elder's story.
  He enters it. 1947. A woman leaving everything behind. Felt. Not narrated. That's a completely different emotional impact than audio.
  ---
+## AGELESS Companion – Development Infrastructure Plan (for local deployment, the edge node)
+
+AGELESS Companion is designed as a human-centric AI assistant primarily for elderly users.
+The goal is not to build a chatbot, but a reliable daily-life support system that can assist with reminders, emotional interaction, and contextual understanding.
+
+### System Philosophy
+
+The project follows an **edge-AI architecture** rather than a purely cloud-AI approach.
+Reliability is critical because elderly users cannot depend on constant internet connectivity.
+
+Therefore the system is divided into three layers:
+
+**1. Edge Device (Phone)**
+
+* Wake word detection
+* Speech capture
+* Lightweight speech-to-text
+* Local intent classification using a small quantized LLM
+* Offline reminders and alerts
+
+**2. Cloud Backend**
+
+* Long conversational responses
+* Memory and personalization
+* Emotional support responses
+* Knowledge queries
+
+**3. Development Workstation**
+
+* Dataset preparation
+* Prompt engineering
+* Model experimentation
+* System orchestration
+
+### Hardware Roles
+
+The phone acts as a real-world interaction device and testing platform.
+It collects conversational patterns, evaluates reminder reliability, and validates usability in real environments.
+
+The workstation handles model experimentation and backend development, while the cloud provides scalable intelligence.
+
+### First Prototype (Version 0)
+
+The initial version is an “Intelligent Reminder System”.
+
+Workflow:
+
+1. User speaks a natural request.
+2. Speech is converted to text.
+3. A local model extracts structured intent.
+4. Reminder is scheduled locally.
+5. The system speaks a reminder at the appropriate time.
+
+This minimal system allows real-world testing of:
+
+* elderly speech patterns
+* notification reliability
+* usability behavior
+* environmental noise conditions
+
+### Design Principle
+
+AGELESS Companion prioritizes **reliability over intelligence**.
+Core assistance functions must work even without internet connectivity.
+Complex conversational reasoning is handled by the backend only when necessary.
+
+This hybrid approach ensures safety, usability, and gradual capability expansion.
+

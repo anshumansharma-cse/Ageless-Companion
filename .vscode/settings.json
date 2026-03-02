@@ -1,0 +1,11 @@
+{
+    // =========================================================
+    //         PROJECT-SPECIFIC PYTHON ENVIRONMENT (CONDA)
+    // =========================================================
+    // Lock this project to the ageless conda environment
+    "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/envs/ageless/bin/python",
+    // Where conda executable exists
+    "python.condaPath": "/opt/homebrew/Caskroom/miniconda/base/condabin/conda",
+    // When terminal opens -> automatically activate (ageless)
+    "python.terminal.activateEnvironment": true
+}

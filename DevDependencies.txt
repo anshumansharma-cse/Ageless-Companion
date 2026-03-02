@@ -1,0 +1,3 @@
+pythin env version 3.11.14
+conda install -c conda-forge numpy scipy portaudio
+pip install sounddevice (portaudio's wrapper) 

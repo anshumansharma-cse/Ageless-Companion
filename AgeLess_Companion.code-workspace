@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/envs/ageless/bin/python",
+		"python.terminal.activateEnvironment": true
+	}
+}
