@@ -1,1 +1,0 @@
-Make my Mac record my voice into a file named input.wav

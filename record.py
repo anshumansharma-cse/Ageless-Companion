@@ -8,9 +8,13 @@ import time
 import sounddevice as sd
 from scipy.io.wavfile import write
 
+# Future Scope- Ability to handle vaeious I/P formats like 10 minutes, 1hr 5 min, etc.
+# Using 'datetime' module
+
+Recording_len=int(input("Enter Recording duration in Seconds: "))
 # Audio configuration
 FS = 44100          # Sample rate (CD quality)
-SECONDS = 10        # Recording duration
+SECONDS = Recording_len        # Recording duration
 CHANNELS = 1        # Mono (speech recognition prefers mono)
 
 print("Speak now...")

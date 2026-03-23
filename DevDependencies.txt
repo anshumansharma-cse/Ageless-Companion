@@ -1,3 +1,7 @@
-pythin env version 3.11.14
+# Just for reference, use environments.yml & requirements.txt
+pythin env version 3.11.x
 conda install -c conda-forge numpy scipy portaudio
-pip install sounddevice (portaudio's wrapper) 
+pip install sounddevice (portaudio's wrapper)
+pip install faster-whisper
+<faster-whisper depends upon ffmpeg(homebrew)>
+ brew install ffmpeg

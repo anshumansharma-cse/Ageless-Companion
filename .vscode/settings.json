@@ -7,5 +7,12 @@
     // Where conda executable exists
     "python.condaPath": "/opt/homebrew/Caskroom/miniconda/base/condabin/conda",
     // When terminal opens -> automatically activate (ageless)
-    "python.terminal.activateEnvironment": true
+    "python.terminal.activateEnvironment": true,
+    "python-envs.pythonProjects": [
+        {
+            "path": ".",
+            "envManager": "ms-python.python:conda",
+            "packageManager": "ms-python.python:conda"
+        }
+    ]
 }

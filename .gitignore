@@ -48,7 +48,7 @@ data/
 logs/
 
 # microphone recordings (Ageless ears input)
-recordings/
+Recordings/
 *.wav
 input_*.wav
 input.wav
@@ -82,3 +82,15 @@ dist/
 *.swp
 *.swo
 *~
+# Myfiles
+check.md
+GPT_13march.md
+D1_AGELESS_PRD_v1.docx
+D1_AGELESS_PRD_v1.md.backup
+Ageless_Idea_Dump.md
+Ageless_Discovery_Questionnaire.docx
+Ageless_DataDump.txt
+Learnings.txt
+research.txt
+Todo.txt
+

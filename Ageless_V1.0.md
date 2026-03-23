@@ -2,9 +2,9 @@
 
 ## WHAT will V1 bring on the table?
 
-- Voice First Interface 
+- Voice First Interface
 - Ability to understand and respond to 'native' conversation in native tongue
-- Session Info 
+- Session Info
 
 
 ## How to Create V1
@@ -20,7 +20,7 @@ eg- Voice me kampan, dukh, khushi, uncertainity, motivation, sahas, darr, akela-
 ## Tech Stack & Current Scope
 
 ### V1.0 Stack -->
-Basic python(streamlit) dashboard, frome where user may interact with Ageless; it's temporary home 
+Basic python(streamlit) dashboard, frome where user may interact with Ageless; it's temporary home
 LLM,Conversational Logic -->
 
 V1 Tech Stack — What, Why, How
@@ -60,7 +60,7 @@ V1 Tech Stack — What, Why, How
 - st.session_state — memory
 <br>
     What: In-session conversation history
-<br>    
+<br>
     Why: Zero infrastructure, no database, session dies on close
 <br>
     How: Every exchange appended to a list, sent with each LLM call
@@ -75,7 +75,7 @@ V1 Tech Stack — What, Why, How
 
 
 
-### Current Scope: 
+### Current Scope:
 Dont overcomplicate this, no bells & whistles...Simple Ageless, which is able to understand what the user is saying & be able to answer appropriately
 
 ### Future Scorpe (AgelessV1.1) -->
@@ -83,5 +83,4 @@ Voice Modulations, other
 #### How will data collection happen, so that:
 1. Ageless will be able to understand 'native' (spoken) conversation
 2. Ageless should have an emotional backbone...capable of understanding the 'psyche' of the person using it
-
 
