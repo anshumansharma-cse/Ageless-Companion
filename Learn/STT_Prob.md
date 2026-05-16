@@ -18,7 +18,7 @@ Use this for 5-10 sample recordings. Keep entries short with issue IDs.
 | I10 | List vs Gen        | Pipeline |   3 | Output mismatch (List vs Gen) |
 
 
-## ) Score Rule (quick)
+##  Score Rule (quick)
 
 Score = sum of `(Sev x count)` for that recording.
 
@@ -40,3 +40,5 @@ Format for `Issues (ID x count)`: `I02x3, I07x1`
 |  10 | 22 March 26 | Final01_60    | List |                            |       |                                                 | open   |
 |  11 | 22 March 26 | Final01_60    | Gen  |                            |       |                                                 | open   |
 |     |             |               |      |                            |       |                                                 |        |
+
+
