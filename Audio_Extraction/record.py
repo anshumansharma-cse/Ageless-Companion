@@ -7,9 +7,14 @@
 import time
 import sounddevice as sd
 from scipy.io.wavfile import write
+from pathlib import Path
 
 # Future Scope- Ability to handle vaeious I/P formats like 10 minutes, 1hr 5 min, etc.
 # Using 'datetime' module
+
+# Recorder is Independent of cwd
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+RECORDINGS_DIR = PROJECT_ROOT / "Recordings"
 
 Recording_len=int(input("Enter Recording duration in Seconds: "))
 # Audio configuration
@@ -24,7 +29,7 @@ audio = sd.rec(int(SECONDS * FS), samplerate=FS, channels=CHANNELS)
 sd.wait()  # Wait until recording finishes
 
 # Create unique filename (prevents overwrite)
-filename = f"Recordings/input_{int(time.time())}.wav"
+filename = RECORDINGS_DIR/f"input_{int(time.time())}.wav"
 
 # Save recording
 write(filename, FS, audio)
