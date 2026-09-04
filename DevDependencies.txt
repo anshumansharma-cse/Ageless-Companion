@@ -6,4 +6,6 @@ pip install faster-whisper
 <faster-whisper depends upon ffmpeg(homebrew)>
  brew install ffmpeg
 
- Pytorch for IndicConformer
+# Subject to testing
+ Pytorch (version: 2.2.2) for IndicConformer
+ pip install transformers (for IndicConformer)
