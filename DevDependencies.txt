@@ -5,3 +5,5 @@ pip install sounddevice (portaudio's wrapper)
 pip install faster-whisper
 <faster-whisper depends upon ffmpeg(homebrew)>
  brew install ffmpeg
+
+ Pytorch for IndicConformer

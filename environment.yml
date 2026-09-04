@@ -1,9 +1,12 @@
 name: ageless
 channels:
   - defaults
+  - pytorch
 dependencies:
   - python=3.11
   - scipy
-  - numpy
+  - numpy[version='<2']
   - portaudio
+  - torchaudio
+  - pytorch
   - pip
