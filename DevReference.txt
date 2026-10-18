@@ -1,11 +1,14 @@
-# Just for reference, use environments.yml & requirements.txt
-pythin env version 3.11.x
+# This doc is for 'Documenting Installations', use environments.yml & requirements.txt for actual code
+
+# Committed
+python env version 3.11.x
 conda install -c conda-forge numpy scipy portaudio
 pip install sounddevice (portaudio's wrapper)
 pip install faster-whisper
 <faster-whisper depends upon ffmpeg(homebrew)>
- brew install ffmpeg
+brew install ffmpeg
+pip install ipykernel
 
-# Subject to testing
+# Subject to Testing
  Pytorch (version: 2.2.2) for IndicConformer
  pip install transformers (for IndicConformer)
