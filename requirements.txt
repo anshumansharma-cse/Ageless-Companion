@@ -1,3 +1,4 @@
 # Python-level dependencies (installed via pip)
 sounddevice
 faster-whisper
+ipykernel

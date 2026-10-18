@@ -49,6 +49,7 @@ logs/
 
 # microphone recordings (Ageless ears input)
 Recordings/
+audio_file/
 *.wav
 input_*.wav
 input.wav
