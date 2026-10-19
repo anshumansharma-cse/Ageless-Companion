@@ -1,5 +1,5 @@
 # Define all __all__ variable
-__all__ = ["recorder.py"]
+__all__ = ["recorder"]
 
 from . import recorder
 

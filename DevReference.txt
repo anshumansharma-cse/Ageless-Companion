@@ -1,5 +1,9 @@
 # This doc is for 'Documenting Installations', use environments.yml & requirements.txt for actual code
 
+# Ageless-Companion (main repo), as of now has `conda` + `pip` for package management
+# Other Supporting Repos (viz. ageless-backend) use `uv`
+
+
 # Committed
 python env version 3.11.x
 conda install -c conda-forge numpy scipy portaudio
@@ -8,6 +12,9 @@ pip install faster-whisper
 <faster-whisper depends upon ffmpeg(homebrew)>
 brew install ffmpeg
 pip install ipykernel
+
+Create pyptroject.toml - > for packages like ageless_audio to be used by ageless-backend
+(both 'ageless-backend' & 'Ageless-Companion' are under the same folder inside my @ local machine)
 
 # Subject to Testing
  Pytorch (version: 2.2.2) for IndicConformer
