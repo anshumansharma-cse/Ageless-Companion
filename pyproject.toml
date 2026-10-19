@@ -1,0 +1,19 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ageless-audio"
+version = "0.1.0"
+description = "Reusable audio recording module for AGELESS Companion"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy<2",
+    "scipy",
+    "sounddevice",
+]
+
+[tool.setuptools]
+packages = ["ageless_audio"]
+
