@@ -14,7 +14,13 @@ brew install ffmpeg
 pip install ipykernel
 
 Create pyptroject.toml - > for packages like ageless_audio to be used by ageless-backend
-(both 'ageless-backend' & 'Ageless-Companion' are under the same folder inside my @ local machine)
+('ageless-backend', 'ageless-demo01' & 'Ageless-Companion' are under the same folder inside my @ local machine- sister dir)
+
+Multiple Repos working in sync to make Ageless-Companion work include:
+    1. Ageless-Companion (This one)
+    2. ageless-backend (Responsible for backend)
+    3. ageless-demo01 (Strictly for Current Demos)
+    4. ageless_companion_app (Longterm vision of a flutter app, for mobile devices, making ocnversational loop natural)
 
 # Subject to Testing
  Pytorch (version: 2.2.2) for IndicConformer
