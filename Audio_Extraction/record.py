@@ -1,5 +1,8 @@
+"""
+⚠️ ageless_audio package's recorder module is now responsiible for audio I/P
+"""
 
-# Learning to build the ears(audio I/P phase) of Ageless
+
 # ---------------------------------------------------------
 # AGELESS Companion : Audio Input (Microphone Recorder)
 # ---------------------------------------------------------
@@ -9,8 +12,7 @@ import sounddevice as sd
 from scipy.io.wavfile import write
 from pathlib import Path
 
-# Future Scope- Ability to handle vaeious I/P formats like 10 minutes, 1hr 5 min, etc.
-# Using 'datetime' module
+
 
 # Recorder is Independent of cwd
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
